@@ -1,0 +1,13 @@
+http://localhost:3000/report/Burger King
+http://localhost:3000/report/McDonald
+
+http://127.0.0.1:5000/YearSold/?rest=McDonald&ano=2019
+http://127.0.0.1:5000/YearSold/?rest=Burger King&ano=2019
+
+http://127.0.0.1:5000/MonthSold/?rest=McDonald&mes=02
+http://127.0.0.1:5000/MonthSold/?rest=Burger King&mes=02
+
+http://127.0.0.1:5000/DaySold/?rest=McDonald&dia=02
+http://127.0.0.1:5000/DaySold/?rest=Burger King&dia=02
+
+http://127.0.0.1:5000/BestClient/?date1=2010-02-13&date2=2019-06-05
