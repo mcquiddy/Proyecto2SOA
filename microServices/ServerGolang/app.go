@@ -12,6 +12,6 @@ func main(){
 	flag.Parse()
 
 	http.Handle("/", http.FileServer(http.Dir(*dir)))
-	log.Printf("Serving %s on Http port: %s\n", *dir, *port)
+	log.Printf("HOLA MUNDO GOLANG %s en Http port: %s\n", *dir, *port)
 	log.Fatal(http.ListenAndServe(":"+*port,nil))
 }
