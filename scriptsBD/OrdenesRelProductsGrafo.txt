@@ -1,0 +1,901 @@
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 1" AND (d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 2" AND (d.nombre ="Chifrijo" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 3" AND (d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 4" AND (d.nombre ="Pizza Suprema" OR d.nombre ="Pizza Peperoni" OR d.nombre ="Pizza Suprema")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 5" AND (d.nombre ="Pizza Suprema")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 6" AND (d.nombre ="Casado Pollo" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 7" AND (d.nombre ="Pizza Suprema" OR d.nombre ="Pizza Peperoni" OR d.nombre ="Pizza Peperoni")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 8" AND (d.nombre ="Cocacola" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 9" AND (d.nombre ="Cocacola" OR d.nombre ="Cocacola" OR d.nombre ="Sopa" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 10" AND (d.nombre ="Taco Suprema" OR d.nombre ="Limonada" OR d.nombre ="Sopa" OR d.nombre ="Pizza Suprema" OR d.nombre ="Pizza Suprema" OR d.nombre ="Casado Pescado" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 11" AND (d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 12" AND (d.nombre ="Cocacola" OR d.nombre ="Papas" OR d.nombre ="Cocacola" OR d.nombre ="Chifrijo" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+*********************************************
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 13" AND (d.nombre ="Papas" OR d.nombre ="Sopa" OR d.nombre ="Cantones" OR d.nombre ="Papas" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 14" AND (d.nombre ="Pizza Suprema" OR d.nombre ="Pizza Peperoni" OR d.nombre ="Pizza Peperoni")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 15" AND (d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 16" AND (d.nombre ="Sopa" OR d.nombre ="Pizza Suprema" OR d.nombre ="Taco Suprema" OR d.nombre ="Limonada" OR d.nombre ="Cocacola" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Sopa" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Pizza Suprema")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 17" AND (d.nombre ="Chifrijo" OR d.nombre ="Casado Carne" OR d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 18" AND (d.nombre ="Cocacola" OR d.nombre ="Sopa" OR d.nombre ="Sopa" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 19" AND (d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 20" AND (d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 21" AND (d.nombre ="Pizza Suprema" OR d.nombre ="Pizza Suprema")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 22" AND (d.nombre ="Papas" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 23" AND (d.nombre ="Helado" OR d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 24" AND (d.nombre ="Helado" OR d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 25" AND (d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 26" AND (d.nombre ="Chifrijo" OR d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 27" AND (d.nombre ="Muslo de Pollo" OR d.nombre ="Sopa" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Limonada" OR d.nombre ="Sopa" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Taco Suprema")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 28" AND (d.nombre ="Sopa" OR d.nombre ="Cocacola" OR d.nombre ="Papas" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 29" AND (d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 30" AND (d.nombre ="Chifrijo" OR d.nombre ="Chifrijo" OR d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 31" AND (d.nombre ="Papas" OR d.nombre ="Cantones" OR d.nombre ="Papas" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 32" AND (d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 33" AND (d.nombre ="Sopa" OR d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 34" AND (d.nombre ="Taco Suprema" OR d.nombre ="Cocacola" OR d.nombre ="Pizza Suprema" OR d.nombre ="Papas" OR d.nombre ="Taco Suprema" OR d.nombre ="Casado Pescado" OR d.nombre ="Sopa" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 35" AND (d.nombre ="Sopa" OR d.nombre ="Papas" OR d.nombre ="Cocacola" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 36" AND (d.nombre ="Muslo de Pollo" OR d.nombre ="Sopa" OR d.nombre ="Casado Pollo" OR d.nombre ="Taco Suprema" OR d.nombre ="Casado Pollo" OR d.nombre ="Casado Pescado" OR d.nombre ="Casado Pescado" OR d.nombre ="Casado Pescado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 37" AND (d.nombre ="Papas" OR d.nombre ="Papas" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 38" AND (d.nombre ="Cantones" OR d.nombre ="Sopa" OR d.nombre ="Papas" OR d.nombre ="Papas" OR d.nombre ="Papas" OR d.nombre ="Helado" OR d.nombre ="Pechuga de Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 39" AND (d.nombre ="Chifrijo" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 40" AND (d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 41" AND (d.nombre ="Papas" OR d.nombre ="Papas" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 42" AND (d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 43" AND (d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 44" AND (d.nombre ="Pizza Peperoni")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 45" AND (d.nombre ="Sopa" OR d.nombre ="Chifrijo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 46" AND (d.nombre ="Helado" OR d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 47" AND (d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 48" AND (d.nombre ="Sopa" OR d.nombre ="Sopa" OR d.nombre ="Pechuga de Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 49" AND (d.nombre ="Sopa" OR d.nombre ="Papas" OR d.nombre ="Sopa" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 50" AND (d.nombre ="Papas" OR d.nombre ="Sopa" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 51" AND (d.nombre ="Pizza Suprema" OR d.nombre ="Pizza Peperoni")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 52" AND (d.nombre ="Sopa" OR d.nombre ="Papas" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 53" AND (d.nombre ="Sopa" OR d.nombre ="Papas" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 54" AND (d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 55" AND (d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 56" AND (d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 57" AND (d.nombre ="Sopa" OR d.nombre ="Sopa" OR d.nombre ="Cocacola" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 58" AND (d.nombre ="Sopa" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 59" AND (d.nombre ="Papas" OR d.nombre ="Casado Pescado" OR d.nombre ="Sopa" OR d.nombre ="Casado Pescado" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Taco Suprema" OR d.nombre ="Cocacola" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Sopa" OR d.nombre ="Casado Pescado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 60" AND (d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 61" AND (d.nombre ="Cocacola" OR d.nombre ="Papas" OR d.nombre ="Cocacola" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 62" AND (d.nombre ="Chifrijo" OR d.nombre ="Casado Pollo" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 63" AND (d.nombre ="Chifrijo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 64" AND (d.nombre ="Sopa" OR d.nombre ="Sopa" OR d.nombre ="Papas" OR d.nombre ="Papas" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 65" AND (d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 66" AND (d.nombre ="Muslo de Pollo" OR d.nombre ="Limonada" OR d.nombre ="Sopa" OR d.nombre ="Sopa" OR d.nombre ="Cocacola" OR d.nombre ="Limonada")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 67" AND (d.nombre ="Casado Carne" OR d.nombre ="Casado Carne" OR d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 68" AND (d.nombre ="Pizza Suprema")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 69" AND (d.nombre ="Sopa" OR d.nombre ="Papas" OR d.nombre ="Papas" OR d.nombre ="Papas" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 70" AND (d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 71" AND (d.nombre ="Chifrijo" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 72" AND (d.nombre ="Casado Carne" OR d.nombre ="Casado Pollo" OR d.nombre ="Casado Carne" OR d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 73" AND (d.nombre ="Chifrijo" OR d.nombre ="Chifrijo" OR d.nombre ="Papas" OR d.nombre ="Chifrijo" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 74" AND (d.nombre ="Cantones" OR d.nombre ="Cantones" OR d.nombre ="Cantones" OR d.nombre ="Helado" OR d.nombre ="Sopa" OR d.nombre ="Papas" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 75" AND (d.nombre ="Sopa" OR d.nombre ="Cocacola" OR d.nombre ="Papas" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 76" AND (d.nombre ="Casado Pollo" OR d.nombre ="Papas" OR d.nombre ="Papas" OR d.nombre ="Sopa" OR d.nombre ="Pizza Suprema" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Taco Suprema")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 77" AND (d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 78" AND (d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 79" AND (d.nombre ="Pizza Peperoni" OR d.nombre ="Pizza Peperoni")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 80" AND (d.nombre ="Limonada" OR d.nombre ="Pizza Suprema" OR d.nombre ="Casado Pollo" OR d.nombre ="Sopa" OR d.nombre ="Pizza Suprema" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 81" AND (d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 82" AND (d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 83" AND (d.nombre ="Helado" OR d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 84" AND (d.nombre ="Papas" OR d.nombre ="Cocacola" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 85" AND (d.nombre ="Helado" OR d.nombre ="Cantones" OR d.nombre ="Sopa" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 86" AND (d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 87" AND (d.nombre ="Casado Carne" OR d.nombre ="Chifrijo" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 88" AND (d.nombre ="Pizza Suprema" OR d.nombre ="Pizza Peperoni")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 89" AND (d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 90" AND (d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 91" AND (d.nombre ="Chifrijo" OR d.nombre ="Chifrijo" OR d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 92" AND (d.nombre ="Chifrijo" OR d.nombre ="Casado Pollo" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 93" AND (d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 94" AND (d.nombre ="Helado" OR d.nombre ="Pechuga de Pollo" OR d.nombre ="Helado" OR d.nombre ="Cantones")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 95" AND (d.nombre ="Casado Pollo" OR d.nombre ="Pizza Suprema" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 96" AND (d.nombre ="Sopa" OR d.nombre ="Cocacola" OR d.nombre ="Papas" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 97" AND (d.nombre ="Cocacola" OR d.nombre ="Cocacola" OR d.nombre ="Cocacola" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 98" AND (d.nombre ="Cocacola" OR d.nombre ="Sopa" OR d.nombre ="Pizza Suprema" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Pizza Suprema")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 99" AND (d.nombre ="Cantones" OR d.nombre ="Papas" OR d.nombre ="Pechuga de Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 100" AND (d.nombre ="Casado Pollo" OR d.nombre ="Casado Pollo" OR d.nombre ="Chifrijo" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 101" AND (d.nombre ="Cocacola" OR d.nombre ="Sopa" OR d.nombre ="Papas" OR d.nombre ="Cocacola" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 102" AND (d.nombre ="Papas" OR d.nombre ="Papas" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 103" AND (d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 104" AND (d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 105" AND (d.nombre ="Casado Carne" OR d.nombre ="Chifrijo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 106" AND (d.nombre ="Pechuga de Pollo" OR d.nombre ="Cantones" OR d.nombre ="Pechuga de Pollo" OR d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 107" AND (d.nombre ="Papas" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 108" AND (d.nombre ="Sopa" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 109" AND (d.nombre ="Casado Pollo" OR d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 110" AND (d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 111" AND (d.nombre ="Casado Pollo" OR d.nombre ="Casado Pollo" OR d.nombre ="Casado Carne" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 112" AND (d.nombre ="Chifrijo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 113" AND (d.nombre ="Pizza Suprema")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 114" AND (d.nombre ="Sopa" OR d.nombre ="Sopa" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 115" AND (d.nombre ="Chifrijo" OR d.nombre ="Casado Pollo" OR d.nombre ="Chifrijo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 116" AND (d.nombre ="Sopa" OR d.nombre ="Cocacola" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 117" AND (d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 118" AND (d.nombre ="Cocacola" OR d.nombre ="Chifrijo" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 119" AND (d.nombre ="Pizza Peperoni" OR d.nombre ="Pizza Suprema" OR d.nombre ="Pizza Peperoni")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 120" AND (d.nombre ="Sopa" OR d.nombre ="Sopa" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 121" AND (d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 122" AND (d.nombre ="Sopa" OR d.nombre ="Papas" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 123" AND (d.nombre ="Papas" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 124" AND (d.nombre ="Casado Pollo" OR d.nombre ="Papas" OR d.nombre ="Cocacola" OR d.nombre ="Casado Pollo" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 125" AND (d.nombre ="Casado Pollo" OR d.nombre ="Casado Carne" OR d.nombre ="Chifrijo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 126" AND (d.nombre ="Sopa" OR d.nombre ="Papas" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 127" AND (d.nombre ="Cocacola" OR d.nombre ="Papas" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 128" AND (d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 129" AND (d.nombre ="Cocacola" OR d.nombre ="Papas" OR d.nombre ="Sopa" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 130" AND (d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 131" AND (d.nombre ="Casado Pollo" OR d.nombre ="Casado Pollo" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 132" AND (d.nombre ="Taco Suprema" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Casado Pollo" OR d.nombre ="Casado Pescado" OR d.nombre ="Cocacola" OR d.nombre ="Cocacola" OR d.nombre ="Cocacola" OR d.nombre ="Casado Pollo" OR d.nombre ="Limonada")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 133" AND (d.nombre ="Sopa" OR d.nombre ="Cocacola" OR d.nombre ="Sopa" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 134" AND (d.nombre ="Pechuga de Pollo" OR d.nombre ="Papas" OR d.nombre ="Cantones" OR d.nombre ="Papas" OR d.nombre ="Cantones" OR d.nombre ="Pechuga de Pollo" OR d.nombre ="Pechuga de Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 135" AND (d.nombre ="Helado" OR d.nombre ="Helado")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 136" AND (d.nombre ="Pizza Suprema" OR d.nombre ="Pizza Suprema" OR d.nombre ="Pizza Suprema")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 137" AND (d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 138" AND (d.nombre ="Papas" OR d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 139" AND (d.nombre ="Sopa")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 140" AND (d.nombre ="Taco Suprema" OR d.nombre ="Cocacola" OR d.nombre ="Limonada" OR d.nombre ="Papas" OR d.nombre ="Sopa" OR d.nombre ="Sopa" OR d.nombre ="Limonada")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 141" AND (d.nombre ="Papas" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 142" AND (d.nombre ="Chifrijo" OR d.nombre ="Casado Carne")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 143" AND (d.nombre ="Casado Pollo" OR d.nombre ="Pizza Suprema" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Pizza Suprema" OR d.nombre ="Taco Suprema" OR d.nombre ="Cocacola" OR d.nombre ="Limonada" OR d.nombre ="Taco Suprema")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 144" AND (d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 145" AND (d.nombre ="Muslo de Pollo" OR d.nombre ="Papas" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Pizza Suprema" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Muslo de Pollo" OR d.nombre ="Pizza Suprema" OR d.nombre ="Papas" OR d.nombre ="Limonada" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 146" AND (d.nombre ="Papas" OR d.nombre ="Papas")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 147" AND (d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 148" AND (d.nombre ="Chifrijo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 149" AND (d.nombre ="Papas" OR d.nombre ="Cocacola" OR d.nombre ="Cocacola")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+
+MATCH (n:Orden),(d:Producto)
+WHERE n.nombre = "Orden 150" AND (d.nombre ="Chifrijo" OR d.nombre ="Casado Pollo")
+CREATE
+(n)-[r:PRODUCTO]->(d)
+RETURN r,n,d;
+

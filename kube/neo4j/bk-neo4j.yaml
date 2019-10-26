@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bk-neo4j
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bk-neo4j
+  template:
+    metadata:
+      labels:
+        app: bk-neo4j
+    spec:
+      containers:
+      - name: bk-neo4j
+        image: orca23/neo4j:3.5.12
+        ports:
+        - containerPort: 7474

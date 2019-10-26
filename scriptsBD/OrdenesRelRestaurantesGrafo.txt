@@ -1,0 +1,900 @@
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 1"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 2"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 3"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Taco Bell" AND d.nombre ="Orden 4"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 5"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 6"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Taco Bell" AND d.nombre ="Orden 7"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 8"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 9"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 10"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 11"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 12"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 13"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Taco Bell" AND d.nombre ="Orden 14"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 15"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 16"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 17"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 18"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 19"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 20"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Taco Bell" AND d.nombre ="Orden 21"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 22"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 23"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 24"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 25"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 26"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 27"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 28"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 29"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 30"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 31"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 32"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 33"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 34"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 35"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 36"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 37"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 38"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 39"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 40"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 41"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 42"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 43"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Taco Bell" AND d.nombre ="Orden 44"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 45"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 46"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 47"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 48"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 49"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 50"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Taco Bell" AND d.nombre ="Orden 51"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 52"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 53"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 54"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 55"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 56"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 57"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 58"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 59"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 60"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 61"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 62"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 63"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 64"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 65"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 66"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 67"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Taco Bell" AND d.nombre ="Orden 68"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 69"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 70"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 71"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 72"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 73"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 74"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 75"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 76"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 77"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 78"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Taco Bell" AND d.nombre ="Orden 79"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 80"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 81"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 82"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 83"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 84"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 85"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 86"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 87"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Taco Bell" AND d.nombre ="Orden 88"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 89"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 90"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 91"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 92"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 93"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 94"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 95"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 96"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 97"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 98"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 99"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 100"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 101"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 102"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 103"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 104"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 105"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 106"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 107"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 108"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 109"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 110"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 111"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 112"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 113"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 114"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 115"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 116"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 117"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Subway" AND d.nombre ="Orden 118"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Taco Bell" AND d.nombre ="Orden 119"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 120"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 121"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 122"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 123"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 124"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 125"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 126"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 127"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 128"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 129"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 130"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 131"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 132"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 133"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 134"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Pizza Hut" AND d.nombre ="Orden 135"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Taco Bell" AND d.nombre ="Orden 136"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 137"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 138"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "McDonald" AND d.nombre ="Orden 139"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 140"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comida China" AND d.nombre ="Orden 141"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 142"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 143"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 144"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Comedor Institucional" AND d.nombre ="Orden 145"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Restaurante el Lago" AND d.nombre ="Orden 146"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 147"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "KFC" AND d.nombre ="Orden 148"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Cuchara de Aurora" AND d.nombre ="Orden 149"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+
+MATCH (n:Restaurante),(d:Orden)
+WHERE n.nombre = "Burger King" AND d.nombre ="Orden 150"
+CREATE
+(n)-[r:ORDEN]->(d)
+RETURN r,n,d;
+

@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ReplicationController
+metadata: 
+  name: rc-nodejs
+spec:
+  replicas: 1
+  selector:
+    app: bk-nodejs
+  template:
+    metadata: 
+      name: bk-nodejs
+      labels:
+        app: bk-nodejs
+    spec:
+      containers:
+      - name: bk-nodejs
+        image: orca23/servernode:1.0.0
+        ports:
+        - containerPort: 3000

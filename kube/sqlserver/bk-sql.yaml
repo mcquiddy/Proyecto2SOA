@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bk-sql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bk-sql
+  template:
+    metadata:
+      labels:
+        app: bk-sql
+    spec:
+      containers:
+      - name: bk-sql
+        image: orca23/sqlserver
+        ports:
+        - containerPort: 1433

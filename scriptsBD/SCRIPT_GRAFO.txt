@@ -1,0 +1,9 @@
+MATCH (rest:Restaurante)-->(ord:Orden)-[r:PRODUCTO]-(p:Producto)
+WHERE rest.nombre = "Burger King"
+WITH distinct p.nombre as name ,count(*) as ordersAmount
+RETURN name
+ORDER BY ordersAmount DESC
+LIMIT(5)
+
+MATCH (rest:Restaurante)-->(ord:Orden)-[r:PRODUCTO]-(p:Producto)
+RETURN rest,ord,r,p

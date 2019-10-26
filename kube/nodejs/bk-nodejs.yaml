@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bk-nodejs
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bk-nodejs
+  template:
+    metadata:
+      labels:
+        app: bk-nodejs
+    spec:
+      containers:
+      - name: bk-nodejs
+        image: orca23/servernode:1.0.0
+        ports:
+        - containerPort: 3000
