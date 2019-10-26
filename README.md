@@ -1,17 +1,17 @@
 
 # Tecnológico de Costa Rica
 
-Computer Engineering.
+Ing. Computadores.
 
-Developers: Cristian Castillo McQuiddy. Jairo Ortega Calderón.
+Desarrolladores: Cristian Castillo McQuiddy. Jairo Ortega Calderón.
 
-September, 2019.
+Septiembre, 2019.
 
 Infraestructura de Software
 
-This is the second project of SOA4ID.
+Segundo proyecto de SOA4ID.
 
-## Dependecies
+## Dependencias
 
 Node 
 Ruby
@@ -24,7 +24,8 @@ Docker
 Neo4j
 Sql Server
 
-## Configuration
+## Configuración
+
 Para configurar el clúster se puede seguir el siguiente tutorial, en el mismo se encuentra como instalar lo necesario:
 https://www.linuxtechi.com/install-configure-kubernetes-ubuntu-18-04-ubuntu-18-10/
 En el hay tener presente que las direcciones ip de los nodos que se agregan en el archivo /etc/hosts
